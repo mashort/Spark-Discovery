@@ -41,18 +41,17 @@ Getting Spark installed and setup (to run standalone) on Windows 10 involves a f
 ---
 
 ### Setup (System) Environment Variables
-- **_JAVA_OPTIONS**
+
 ![Java Options](assets/_JAVA_OPTIONS.png)
-- **JAVA_HOME**
 ![Java Home](assets/JAVA_HOME.png)
-- **HADOOP_HOME**
 ![Hadoop Home](assets/HADOOP_HOME.png)
-- **SCALA_HOME**
+
+---
+
 ![Scala Home](assets/SCALA_HOME.png)
-- **SPARK_HOME**
 ![Spark Home](assets/SPARK_HOME.png)
 
-Note the use of **Progra~1** (in JAVA_HOME) & **Progra~2** (in SCALA_HOME) - the rendered values for these are "Program Files" "Program Files (x86)" respectively. IMPORTANT: using these will avoid a lot of pain caused by spaces in paths...due to Spark using these variables in it's own internal cmd files.
+Note the use of **Progra~1** & **Progra~2** - the rendered values for these are "Program Files" "Program Files (x86)" respectively. IMPORTANT: using these will avoid a lot of pain caused by spaces in paths...due to Spark using these variables in it's own internal cmd files.
 
 ---
 
@@ -60,6 +59,7 @@ Note the use of **Progra~1** (in JAVA_HOME) & **Progra~2** (in SCALA_HOME) - the
 
 - Path to Scala binaries
 - Path to Spark binaries
+
 ![Path](assets/Path.png)
 
 ---
