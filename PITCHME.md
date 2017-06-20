@@ -42,7 +42,7 @@ Getting Spark installed and setup (to run standalone) on Windows 10 involves a f
 
 ### Setup (System) Environment Variables
 
-![Java Options](assets/_JAVA_OPTIONS.png)
+![Java Options](assets/JAVAOPTIONS.png)
 ![Java Home](assets/JAVA_HOME.png)
 ![Hadoop Home](assets/HADOOP_HOME.png)
 
