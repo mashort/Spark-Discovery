@@ -35,8 +35,8 @@ Getting Spark installed and setup (to run standalone) on Windows 10 involves a f
 
 - **Java** - Follow instructions
 - **Scala** - Run msi and follow instructions
-- **Spark** - Unzip & untar the .tgz file to suitable location e.g. C:\Spark\
-- **winutils.exe** - copy the binary to C:\Spark\spark-<version>\bin\
+- **Spark** - Unzip & untar the .tgz file to suitable location e.g. C:\\Spark\\
+- **winutils.exe** - copy the binary to C:\\Spark\\spark-<version>\\bin\\
 
 ---
 
