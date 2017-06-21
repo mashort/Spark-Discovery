@@ -18,7 +18,7 @@ TODO
 
 ## Getting Started
 
-Getting Spark installed and setup (to run standalone) on Windows 10 involves a few steps and can be a litte tricky, but here's how...
+Getting Spark installed and setup (to run standalone) on Windows 10 involves a few steps and can be a little tricky, but here's how...
 
 ---
 
@@ -48,13 +48,15 @@ Getting Spark installed and setup (to run standalone) on Windows 10 involves a f
 <br />
 ![](assets/JAVA_HOME.PNG)
 
-<br />
-![](assets/HADOOP_HOME.PNG)
-
 ---
 
 <br />
+![](assets/HADOOP_HOME.PNG)
+
+<br />
 ![](assets/SCALA_HOME.PNG)
+
+---
 
 <br />
 ![](assets/SPARK_HOME.PNG)
@@ -77,7 +79,7 @@ Note the use of **Progra~1** & **Progra~2** - the rendered values for these are 
 
 Ensure the folder structure C:\tmp\hive exists.
 
-Open a Windows Command Prompt (run as Admnistrator) and navigate to the folder that contains winutils.exe, then run:
+Open a Windows Command Prompt (run as Administrator) and navigate to the folder that contains winutils.exe, then run:
 
 ```
 winutils.exe chmod 777 C:\tmp\hive
