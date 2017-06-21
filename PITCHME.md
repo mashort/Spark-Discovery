@@ -42,22 +42,22 @@ Getting Spark installed and setup (to run standalone) on Windows 10 involves a f
 
 ### Setup (System) Environment Variables
 
-##### _JAVA_OPTIONS
+<br />
 ![](assets/JAVAOPTIONS.PNG)
 
-##### JAVA_HOME
-![Java Home](assets/JAVA_HOME.PNG)
+<br />
+![](assets/JAVA_HOME.PNG)
 
-##### HADOOP_HOME
-![Hadoop Home](assets/HADOOP_HOME.PNG)
+<br />
+![](assets/HADOOP_HOME.PNG)
 
 ---
 
-##### SCALA_HOME
-![Scala Home](assets/SCALA_HOME.PNG)
+<br />
+![](assets/SCALA_HOME.PNG)
 
-##### SPARK_HOME
-![Spark Home](assets/SPARK_HOME.PNG)
+<br />
+![](assets/SPARK_HOME.PNG)
 
 Note the use of **Progra~1** & **Progra~2** - the rendered values for these are "Program Files" "Program Files (x86)" respectively. IMPORTANT: using these will avoid a lot of pain caused by spaces in paths...due to Spark using these variables in it's own internal cmd files.
 
@@ -68,6 +68,7 @@ Note the use of **Progra~1** & **Progra~2** - the rendered values for these are 
 - Path to Scala binaries
 - Path to Spark binaries
 
+<br />
 ![](assets/Path.PNG)
 
 ---
@@ -78,4 +79,6 @@ Ensure the folder structure C:\tmp\hive exists.
 
 Open a Windows Command Prompt (run as Admnistrator) and navigate to the folder that contains winutils.exe, then run:
 
+```
 winutils.exe chmod 777 C:\tmp\hive
+```
