@@ -36,7 +36,7 @@ Getting Spark installed and setup (to run standalone) on Windows 10 involves a f
 - **Java** - Follow instructions
 - **Scala** - Run msi and follow instructions
 - **Spark** - Unzip & untar the .tgz file to suitable location e.g. C:\\Spark\\
-- **winutils.exe** - copy the binary to C:\\Spark\\spark-<version>\\bin\\
+- **winutils.exe** - copy the binary to C:\\Spark\\spark-\<version\>\\bin\\
 
 ---
 
@@ -84,3 +84,18 @@ Open a Windows Command Prompt (run as Administrator) and navigate to the folder 
 ```
 winutils.exe chmod 777 C:\tmp\hive
 ```
+
+---
+
+### Checking Things
+
+In a Windows Command Prompt run:
+
+```
+scala -version
+```
+
+If all is well the following should be displayed:
+
+<br />
+![](assets/Scala-Version.PNG)
