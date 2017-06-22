@@ -99,3 +99,14 @@ If all is well the following should be displayed:
 
 <br />
 ![](assets/Scala-Version.PNG)
+
+---
+
+And then attempt to start the Spark Shell by running:
+
+```
+spark-shell
+```
+
+<br />
+![](assets/Spark-Shell-Welcome.PNG)
